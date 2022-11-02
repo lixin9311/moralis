@@ -1,4 +1,4 @@
-module publisher
+module lcs.icu/moralis/publisher
 
 go 1.16
 
