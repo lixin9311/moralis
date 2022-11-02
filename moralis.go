@@ -46,9 +46,9 @@ type NotifyEvent struct {
 }
 
 type Block struct {
-	Number    string `json:"number"`
+	Number    int64  `json:"number,string"`
 	Hash      string `json:"hash"`
-	Timestamp string `json:"timestamp"`
+	Timestamp int64  `json:"timestamp,string"` // timestamp in unix seconds
 }
 
 /*
