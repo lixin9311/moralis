@@ -132,7 +132,7 @@ type Log struct {
 	"transactionHash": "0xb9730dd1b49061f3b5a6f93e0a66a03be199cad6f21ba5e8747a8087754e3e",
 	"transactionIndex": "40",
 	"logIndex": "48",
-	"tokenAddress": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+	"contract": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
 	"tokenName": "SHIBA INU",
 	"tokenSymbol": "SHIB",
 	"tokenDecimals": "18",
@@ -147,7 +147,7 @@ type Erc20Transfer struct {
 	TransactionHash   string  `json:"transactionHash"`
 	TransactionIndex  int64   `json:"transactionIndex,string"`
 	LogIndex          int64   `json:"logIndex,string"`
-	TokenAddress      string  `json:"tokenAddress"`
+	Contract          string  `json:"contract"`
 	TokenName         string  `json:"tokenName"`
 	TokenSymbol       string  `json:"tokenSymbol"`
 	TokenDecimals     int64   `json:"tokenDecimals,string"`
